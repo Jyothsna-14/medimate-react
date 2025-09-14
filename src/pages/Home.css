@@ -1,0 +1,40 @@
+/* Hero section already in your CSS, keep it */
+
+/* Browse by Health Conditions */
+.conditions {
+  padding: 40px;
+  text-align: center;
+}
+
+.conditions h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.conditions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.condition-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #333;
+  padding: 16px;
+  transition: 0.3s;
+}
+
+.condition-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.condition-card:hover {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-4px);
+}

@@ -1,0 +1,106 @@
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #4caf50, #1d3557);
+}
+
+.login-card {
+  background: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  text-align: center;
+}
+
+.login-card h2 {
+  margin-bottom: 10px;
+  color: #1d3557;
+}
+
+.login-card p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-form input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.login-form input:focus {
+  border-color: #4caf50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+.password-field {
+  position: relative;
+}
+
+.password-field .toggle-password {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #444;
+}
+
+.options a {
+  text-decoration: none;
+  color: #4caf50;
+  transition: 0.3s;
+}
+
+.options a:hover {
+  text-decoration: underline;
+}
+
+.login-btn {
+  background: #4caf50;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  background: #43a047;
+}
+
+.signup-text {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #444;
+}
+
+.signup-text a {
+  color: #1d3557;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.signup-text a:hover {
+  text-decoration: underline;
+}
